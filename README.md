@@ -6,3 +6,4 @@ Site web interactif permettant de personnaliser un gâteau en changeant ses coul
 * Changement dynamique des couleurs
 * * Ajout d’éléments (strawberries)
   *  * Interface simple et interactive  
+![cake](cake.png)
