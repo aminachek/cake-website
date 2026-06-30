@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Studio</title>
+
+    <link rel="stylesheet" href="cake.css">
+</head>
+
+<body>
+
+<header>
+
+    <h1>🍰 Cake Studio</h1>
+
+    <div class="colors">
+
+        <label>Cake</label>
+        <input type="color" id="cakeColor" value="#d8a46d">
+
+        <label>Cream</label>
+        <input type="color" id="creamColor" value="#fff3ea">
+
+    </div>
+
+</header>
+
+<main>
+
+    <aside class="toolbar">
+
+        <h2>Decorations</h2>
+
+        <button id="addStrawberry">🍓 Strawberry</button>
+
+        <button id="addCherry">🍒 Cherry</button>
+
+        <button id="addMacaron">🍪 Macaron</button>
+
+        <button id="addHeart">❤️ Heart</button>
+
+        <button id="clearCanvas">🗑 Clear</button>
+
+        <button id="download">💾 Download</button>
+
+    </aside>
+
+    <section class="canvasBox">
+
+        <canvas id="cakeCanvas"
+                width="900"
+                height="650">
+        </canvas>
+
+    </section>
+
+</main>
+
+<script src="cake.js"></script>
+
+</body>
+
+</html>
